@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "A react native typing indicator",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watadarkstar/react-native-typing-indicator.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,9 +23,14 @@
   ],
   "author": "Adrian Carolli",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-native": "^0.57.7"
+  },
+  "peerDependencies": {
+    "prop-types": "*",
+    "react": "*",
+    "react-native": "*"
   }
 }
