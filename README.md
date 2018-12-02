@@ -1,4 +1,6 @@
-<img src="https://user-images.githubusercontent.com/3059371/49334754-3c9dfe00-f5ab-11e8-8885-0192552d12a1.gif" alt="example" height="100"/>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/3059371/49334754-3c9dfe00-f5ab-11e8-8885-0192552d12a1.gif" alt="example" height="150"/>
+</p>
 
 # React Native Typing Animation
 <p>
