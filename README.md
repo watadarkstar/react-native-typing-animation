@@ -1,6 +1,9 @@
 ![1_dpzqs50u_pl09acusu1jpq](https://user-images.githubusercontent.com/3059371/49334754-3c9dfe00-f5ab-11e8-8885-0192552d12a1.gif)
 
 # React Native Typing Animation
+<a title='License' href="https://github.com/watadarkstar/react-native-typing-animation/blob/master/LICENSE" height="18">
+  <img src='https://img.shields.io/badge/license-MIT-blue.svg' />
+</a>
 A react native typing animation for your chat app.
 
 ## Installation
