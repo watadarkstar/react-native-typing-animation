@@ -1,6 +1,6 @@
 {
   "name": "react-native-typing-animation",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A react native typing animation for your chat app.",
   "main": "index.js",
   "repository": {
