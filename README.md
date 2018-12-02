@@ -6,7 +6,7 @@
 </h3>
 <p align="center">
   A typing animation for your React Native chat app<br/>
-  based on simple trigonometry to create better loaders.
+  based on <a href="https://uxdesign.cc/how-you-can-use-simple-trigonometry-to-create-better-loaders-32a573577eb4">simple trigonometry</a> to create better loaders.
 </p>
 <p align="center">
   <a href="https://www.npmjs.com/package/react-native-typing-animation">
