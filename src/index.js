@@ -10,7 +10,7 @@ const amplitude = 3;
 const radius = 2.5;
 const padding = 3;
 
-class TypingIndicator extends React.Component {
+class TypingAnimation extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -46,14 +46,14 @@ class TypingIndicator extends React.Component {
   }
 }
 
-TypingIndicator.defaultProps = {
+TypingAnimation.defaultProps = {
   style: {},
   circleStyles: {}
 };
 
-TypingIndicator.propTypes = {
+TypingAnimation.propTypes = {
   style: View.propTypes.style,
   circleStyles: View.propTypes.style
 };
 
-export default TypingIndicator;
+export default TypingAnimation;

@@ -4012,7 +4012,7 @@ react-is@^16.6.1:
   version "16.6.3"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.6.3.tgz#d2d7462fcfcbe6ec0da56ad69047e47e56e7eac0"
 
-"react-native-typing-indicator@file:..":
+"react-native-typing-animation@file:..":
   version "0.0.1"
 
 react-native@0.57.7:

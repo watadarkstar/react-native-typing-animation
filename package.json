@@ -1,11 +1,11 @@
 {
-  "name": "react-native-typing-indicator",
+  "name": "react-native-typing-animation",
   "version": "0.0.1",
-  "description": "A react native typing indicator",
+  "description": "A react native typing animation for your chat app.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/watadarkstar/react-native-typing-indicator.git"
+    "url": "git+https://github.com/watadarkstar/react-native-typing-animation.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,7 +18,7 @@
     "react-component",
     "messenger",
     "typing",
-    "indicator",
+    "animation",
     "chat"
   ],
   "author": "Adrian Carolli",

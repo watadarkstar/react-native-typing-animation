@@ -1,1 +1,1 @@
-export { default as TypingIndicator } from "./src/";
+export { default as TypingAnimation } from "./src/";

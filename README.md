@@ -1,23 +1,23 @@
 ![1_dpzqs50u_pl09acusu1jpq](https://user-images.githubusercontent.com/3059371/49334754-3c9dfe00-f5ab-11e8-8885-0192552d12a1.gif)
 
-# react-native-typing-indicator
-A react native typing indicator for your chat app.
+# react-native-typing-animation
+A react native typing animation for your chat app.
 
 ## Installation
 
-* Using [npm](https://www.npmjs.com/#getting-started): `npm install react-native-typing-indicator --save`
-* Using [Yarn](https://yarnpkg.com/): `yarn add react-native-typing-indicator`
+* Using [npm](https://www.npmjs.com/#getting-started): `npm install react-native-typing-animation --save`
+* Using [Yarn](https://yarnpkg.com/): `yarn add react-native-typing-animation`
 
 ## Example
 
 ```jsx
 import React from "react";
-import { TypingIndicator } from 'react-native-typing-indicator'
+import { TypingAnimation } from 'react-native-typing-animation'
 
 class Example extends React.Component {
   render() {
     return (
-      <TypingIndicator />
+      <TypingAnimation />
     );
   }
 }
