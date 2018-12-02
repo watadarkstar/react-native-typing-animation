@@ -1,27 +1,28 @@
-/* eslint-disable react/no-unused-prop-types */
 import React from "react";
 import { View } from "react-native";
 import PropTypes from 'prop-types';
 
 import styles from "./styles";
 
-const getStyles = ({ x, y, radius }) => ({
+const getStyles = ({ x, y, radius, dotColor }) => ({
   left: x,
   top: y,
   width: radius * 2,
   height: radius * 2,
-  borderRadius: radius
+  borderRadius: radius,
+  backgroundColor: dotColor
 });
 
 const Dot = (props) => (
-  <View style={[styles.container, getStyles(props)]} />
+  <View style={[styles.container, props.dotStyles, getStyles(props)]} />
 );
 
 Dot.propTypes = {
   x: PropTypes.number,
   y: PropTypes.number,
   radius: PropTypes.number,
-  dotStyles: View.propTypes.style
+  dotStyles: View.propTypes.style,
+  dotColor: PropTypes.string
 };
 
 export default Dot;

@@ -1,6 +1,6 @@
-/* eslint-disable no-undef */
 import React from "react";
 import { View } from "react-native";
+import PropTypes from 'prop-types';
 
 import Dot from "./Dot";
 import styles from "./styles";
@@ -48,12 +48,14 @@ class TypingAnimation extends React.Component {
 
 TypingAnimation.defaultProps = {
   style: {},
-  dotStyles: {}
+  dotStyles: {},
+  dotColor: "#000"
 };
 
 TypingAnimation.propTypes = {
   style: View.propTypes.style,
-  dotStyles: View.propTypes.style
+  dotStyles: View.propTypes.style,
+  dotColor: PropTypes.string
 };
 
 export default TypingAnimation;
