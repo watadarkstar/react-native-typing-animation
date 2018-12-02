@@ -34,14 +34,26 @@ class TypingIndicator extends React.Component {
   }
 
   render() {
+    const { circleStyles, style } = this.props;
+
     return (
-      <View style={styles.container}>
-        <Circle x={12 - radius - padding} y={this.state.y1} radius={radius} />
-        <Circle x={12} y={this.state.y2} radius={radius} />
-        <Circle x={12 + radius + padding} y={this.state.y3} radius={radius} />
+      <View style={[styles.container, style]}>
+        <Circle x={12 - radius - padding} y={this.state.y1} radius={radius} style={circleStyles} />
+        <Circle x={12} y={this.state.y2} radius={radius} style={circleStyles} />
+        <Circle x={12 + radius + padding} y={this.state.y3} radius={radius} style={circleStyles} />
       </View>
     );
   }
 }
+
+TypingIndicator.defaultProps = {
+  style: {},
+  circleStyles: {}
+};
+
+TypingIndicator.propTypes = {
+  style: View.propTypes.style,
+  circleStyles: View.propTypes.style
+};
 
 export default TypingIndicator;

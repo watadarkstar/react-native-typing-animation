@@ -20,7 +20,8 @@ const Circle = (props) => (
 Circle.propTypes = {
   x: PropTypes.number,
   y: PropTypes.number,
-  radius: PropTypes.number
+  radius: PropTypes.number,
+  circleStyles: View.propTypes.style
 };
 
 export default Circle;
