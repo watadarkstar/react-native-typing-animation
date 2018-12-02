@@ -6,22 +6,21 @@ import Dot from "./Dot";
 import styles from "./styles";
 
 const centerY = 6;
-const amplitude = 3;
-const radius = 2.5;
-const padding = 3;
 
 class TypingAnimation extends React.Component {
   constructor(props) {
     super(props);
+
+    const { dotAmplitude } = props;
     this.state = {
       currentAnimationTime: 0
     };
 
     this._animation = () => {
       this.setState(prevState => ({
-        y1: centerY + amplitude * Math.sin(prevState.currentAnimationTime),
-        y2: centerY + amplitude * Math.sin(prevState.currentAnimationTime - 1),
-        y3: centerY + amplitude * Math.sin(prevState.currentAnimationTime - 2),
+        y1: centerY + dotAmplitude * Math.sin(prevState.currentAnimationTime),
+        y2: centerY + dotAmplitude * Math.sin(prevState.currentAnimationTime - 1),
+        y3: centerY + dotAmplitude * Math.sin(prevState.currentAnimationTime - 2),
         currentAnimationTime: prevState.currentAnimationTime + 0.15
       }));
       this.frameAnimationRequest = requestAnimationFrame(this._animation);
@@ -34,13 +33,13 @@ class TypingAnimation extends React.Component {
   }
 
   render() {
-    const { dotStyles, style, dotColor } = this.props;
+    const { dotStyles, style, dotColor, dotMargin, dotRadius } = this.props;
 
     return (
       <View style={[styles.container, style]}>
-        <Dot x={12 - radius - padding} y={this.state.y1} radius={radius} style={dotStyles} dotColor={dotColor} />
-        <Dot x={12} y={this.state.y2} radius={radius} style={dotStyles} dotColor={dotColor} />
-        <Dot x={12 + radius + padding} y={this.state.y3} radius={radius} style={dotStyles} dotColor={dotColor} />
+        <Dot x={12 - dotRadius - dotMargin} y={this.state.y1} radius={dotRadius} style={dotStyles} dotColor={dotColor} />
+        <Dot x={12} y={this.state.y2} radius={dotRadius} style={dotStyles} dotColor={dotColor} />
+        <Dot x={12 + dotRadius + dotMargin} y={this.state.y3} radius={dotRadius} style={dotStyles} dotColor={dotColor} />
       </View>
     );
   }
@@ -49,13 +48,19 @@ class TypingAnimation extends React.Component {
 TypingAnimation.defaultProps = {
   style: {},
   dotStyles: {},
-  dotColor: "black"
+  dotColor: "black",
+  dotMargin: 3,
+  dotAmplitude: 3,
+  dotRadius: 2.5
 };
 
 TypingAnimation.propTypes = {
   style: PropTypes.object,
   dotStyles: PropTypes.object,
-  dotColor: PropTypes.string
+  dotColor: PropTypes.string,
+  dotMargin: PropTypes.number,
+  dotAmplitude: PropTypes.number,
+  dotRadius: PropTypes.number
 };
 
 export default TypingAnimation;

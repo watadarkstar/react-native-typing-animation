@@ -28,6 +28,9 @@ class Example extends React.Component {
 * **`style`** _(Object)_ - Container styles; default is `{}`
 * **`dotColor`** _(String)_ - Dot color; default is `#000` (black)
 * **`dotStyles`** _(Object)_ - Dot styles; default is `{}`
+* **`dotRadius`** _(Integer)_ - Dot radius; default is `2.5`
+* **`dotMargin`** _(Integer)_ - Dot margin, the space between dots; default is `3`
+* **`dotAmplitude`** _(Integer)_ - Dot amplitude; default is `3`
 
 ## License
 
@@ -47,5 +50,5 @@ Submit a PR to contribute :)
 
 ## Roadmap
 
-* Allow the radius to be configurable (PRs welcome)
+* Allow animation speed to be configurable (PRs welcome)
 * Unit tests
