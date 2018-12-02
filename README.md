@@ -1,14 +1,17 @@
 <p align="center">
   <img src="https://user-images.githubusercontent.com/3059371/49334754-3c9dfe00-f5ab-11e8-8885-0192552d12a1.gif" alt="example" height="150"/>
 </p>
-
-# React Native Typing Animation
+<h3 align="center">
+  💬 React Native Typing Animation
+</h3>
+<p align="center">
+  A react native typing animation for your React Native chat app based on simple trigonometry to create better loaders.
+</p>
 <p>
   <a title='License' href="https://github.com/watadarkstar/react-native-typing-animation/blob/master/LICENSE" height="18">
     <img src='https://img.shields.io/badge/license-MIT-blue.svg' />
   </a>
 </p>
-A react native typing animation for your chat app.
 
 ## Installation
 
