@@ -1,4 +1,4 @@
-![1_dpzqs50u_pl09acusu1jpq](https://user-images.githubusercontent.com/3059371/49334754-3c9dfe00-f5ab-11e8-8885-0192552d12a1.gif)
+<img src="https://user-images.githubusercontent.com/3059371/49334754-3c9dfe00-f5ab-11e8-8885-0192552d12a1.gif" alt="example" height="100"/>
 
 # React Native Typing Animation
 <p>
