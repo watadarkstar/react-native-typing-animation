@@ -26,7 +26,7 @@
 
 ```jsx
 import React from "react";
-import { TypingAnimation } from 'react-native-typing-animation'
+import { TypingAnimation } from 'react-native-typing-animation';
 
 class Example extends React.Component {
   render() {
@@ -41,7 +41,7 @@ class Example extends React.Component {
 
 ```jsx
 import React from "react";
-import { TypingAnimation } from 'react-native-typing-animation'
+import { TypingAnimation } from 'react-native-typing-animation';
 
 class Example extends React.Component {
   render() {
@@ -93,9 +93,10 @@ Submit a PR to contribute :)
 
 ## Release
 
-We use `release-it` to release do the following:
+We use `release-it`, to release do the following:
 
 ```
+yarn run release:dry
 yarn run release
 ```
 
