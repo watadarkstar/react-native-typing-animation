@@ -32,7 +32,14 @@ import { TypingAnimation } from 'react-native-typing-animation'
 class Example extends React.Component {
   render() {
     return (
-      <TypingAnimation dotColor="black" dotMargin={3} dotAmplitude={3} dotRadius={2.5} dotX={12} dotY={6} />
+      <TypingAnimation 
+        dotColor="black"
+        dotMargin={3}
+        dotAmplitude={3}
+        dotRadius={2.5}
+        dotX={12}
+        dotY={6}
+      />
     );
   }
 }
