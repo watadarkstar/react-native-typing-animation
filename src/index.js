@@ -2,7 +2,7 @@
 import React from "react";
 import { View } from "react-native";
 
-import Circle from "./Circle";
+import Dot from "./Dot";
 import styles from "./styles";
 
 const centerY = 6;
@@ -34,13 +34,13 @@ class TypingAnimation extends React.Component {
   }
 
   render() {
-    const { circleStyles, style } = this.props;
+    const { dotStyles, style } = this.props;
 
     return (
       <View style={[styles.container, style]}>
-        <Circle x={12 - radius - padding} y={this.state.y1} radius={radius} style={circleStyles} />
-        <Circle x={12} y={this.state.y2} radius={radius} style={circleStyles} />
-        <Circle x={12 + radius + padding} y={this.state.y3} radius={radius} style={circleStyles} />
+        <Dot x={12 - radius - padding} y={this.state.y1} radius={radius} style={dotStyles} />
+        <Dot x={12} y={this.state.y2} radius={radius} style={dotStyles} />
+        <Dot x={12 + radius + padding} y={this.state.y3} radius={radius} style={dotStyles} />
       </View>
     );
   }
@@ -48,12 +48,12 @@ class TypingAnimation extends React.Component {
 
 TypingAnimation.defaultProps = {
   style: {},
-  circleStyles: {}
+  dotStyles: {}
 };
 
 TypingAnimation.propTypes = {
   style: View.propTypes.style,
-  circleStyles: View.propTypes.style
+  dotStyles: View.propTypes.style
 };
 
 export default TypingAnimation;

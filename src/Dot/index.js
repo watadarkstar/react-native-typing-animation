@@ -13,15 +13,15 @@ const getStyles = ({ x, y, radius }) => ({
   borderRadius: radius
 });
 
-const Circle = (props) => (
+const Dot = (props) => (
   <View style={[styles.container, getStyles(props)]} />
 );
 
-Circle.propTypes = {
+Dot.propTypes = {
   x: PropTypes.number,
   y: PropTypes.number,
   radius: PropTypes.number,
-  circleStyles: View.propTypes.style
+  dotStyles: View.propTypes.style
 };
 
-export default Circle;
+export default Dot;
