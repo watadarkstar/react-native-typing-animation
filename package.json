@@ -12,6 +12,9 @@
     "release": "release-it",
     "release:dry": "release-it --dry-run"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "keywords": [
     "react-native",
     "react",
