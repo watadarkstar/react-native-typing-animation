@@ -1,0 +1,27 @@
+{
+  "name": "react-native-typing-indicator",
+  "version": "0.0.1",
+  "description": "A react native typing indicator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "react",
+    "reactjs",
+    "reactnative",
+    "react-component",
+    "messenger",
+    "typing",
+    "indicator",
+    "chat"
+  ],
+  "author": "Adrian Carolli",
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-native": "^0.57.7"
+  }
+}
