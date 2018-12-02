@@ -36,6 +36,10 @@ TODO
 
 Feel free to ask me questions on Twitter [@icookandcode](https://www.twitter.com/icookandcode)!
 
+## Credits
+
+Work is based on the amazing article ["How you can use simple Trigonometry to create better loaders"](https://uxdesign.cc/how-you-can-use-simple-trigonometry-to-create-better-loaders-32a573577eb4) by Nash Vail
+
 ## Contributors
 
 Submit a PR to contribute :)
