@@ -8,7 +8,9 @@
     "url": "git+https://github.com/watadarkstar/react-native-typing-animation.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "release-it",
+    "release:dry": "release-it --dry-run"
   },
   "keywords": [
     "react-native",
