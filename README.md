@@ -33,6 +33,9 @@ class Example extends React.Component {
 
 * [MIT](LICENSE)
 
+## Roadmap
+
+* Allow for the radius to be configurable (PRs welcome)
 
 ## Author
 
