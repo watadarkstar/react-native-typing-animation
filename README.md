@@ -5,7 +5,7 @@
   💬 React Native Typing Animation
 </h3>
 <p align="center">
-  A react native typing animation for your React Native chat app<br/>
+  A typing animation for your React Native chat app<br/>
   based on simple trigonometry to create better loaders.
 </p>
 <p align="center">
