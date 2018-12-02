@@ -76,3 +76,7 @@ Submit a PR to contribute :)
 
 * Allow animation speed to be configurable (PRs welcome)
 * Unit tests
+
+## Changelog
+
+TODO
