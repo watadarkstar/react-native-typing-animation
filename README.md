@@ -33,10 +33,6 @@ class Example extends React.Component {
 
 * [MIT](LICENSE)
 
-## Roadmap
-
-* Allow for the radius to be configurable (PRs welcome)
-
 ## Author
 
 Feel free to ask me questions on Twitter [@icookandcode](https://www.twitter.com/icookandcode)!
@@ -48,3 +44,8 @@ Work is based on the amazing article ["How you can use simple Trigonometry to cr
 ## Contributors
 
 Submit a PR to contribute :)
+
+## Roadmap
+
+* Allow the radius to be configurable (PRs welcome)
+* Unit tests
