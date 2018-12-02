@@ -13,7 +13,7 @@ const getStyles = ({ x, y, radius }) => ({
   borderRadius: radius
 });
 
-const Circle = () => (
+const Circle = (props) => (
   <View style={[styles.container, getStyles(props)]} />
 );
 
