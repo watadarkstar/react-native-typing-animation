@@ -25,7 +25,9 @@ class Example extends React.Component {
 
 ## Props
 
-* **`dotColor`** _(String)_ - Dot / circle color; default is `#000` (black)
+* **`style`** _(Object)_ - Container styles; default is `{}`
+* **`dotColor`** _(String)_ - Dot color; default is `#000` (black)
+* **`dotStyles`** _(Object)_ - Dot styles; default is `{}`
 
 ## License
 
