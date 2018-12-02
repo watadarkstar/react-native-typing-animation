@@ -5,9 +5,10 @@
   💬 React Native Typing Animation
 </h3>
 <p align="center">
-  A react native typing animation for your React Native chat app based on simple trigonometry to create better loaders.
+  A react native typing animation for your React Native chat app<br/>
+  based on simple trigonometry to create better loaders.
 </p>
-<p>
+<p align="center">
   <a title='License' href="https://github.com/watadarkstar/react-native-typing-animation/blob/master/LICENSE" height="18">
     <img src='https://img.shields.io/badge/license-MIT-blue.svg' />
   </a>
