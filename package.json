@@ -1,6 +1,6 @@
 {
   "name": "react-native-typing-animation",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A React Native typing animation for your chat app based on simple trigonometry to create better loaders.",
   "main": "index.js",
   "repository": {
