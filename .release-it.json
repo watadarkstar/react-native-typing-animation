@@ -1,4 +1,4 @@
 {
-  "dry-run": true,
+  "dry-run": false,
   "requireCleanWorkingDir": false
 }
