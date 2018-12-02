@@ -77,6 +77,14 @@ Submit a PR to contribute :)
 * Allow animation speed to be configurable (PRs welcome)
 * Unit tests
 
+## Release
+
+We use `release-it` to release do the following:
+
+```
+yarn run release
+```
+
 ## Changelog
 
 TODO
