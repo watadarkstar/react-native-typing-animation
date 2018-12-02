@@ -21,7 +21,7 @@ export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <TypingAnimation />
+        <TypingAnimation dotColor="black" dotMargin={3} dotAmplitude={3} dotRadius={2.5} />
       </View>
     );
   }

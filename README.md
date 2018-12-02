@@ -31,6 +31,8 @@ class Example extends React.Component {
 * **`dotRadius`** _(Integer)_ - Dot radius; default is `2.5`
 * **`dotMargin`** _(Integer)_ - Dot margin, the space between dots; default is `3`
 * **`dotAmplitude`** _(Integer)_ - Dot amplitude; default is `3`
+* **`dotY`** _(Integer)_ - Dot y, the starting y coordinate; default is `6`
+* **`dotX`** _(Integer)_ - Dot x, the x coordinate of the center dot; default is `12`
 
 ## License
 
