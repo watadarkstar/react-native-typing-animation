@@ -21,7 +21,7 @@ Dot.propTypes = {
   x: PropTypes.number,
   y: PropTypes.number,
   radius: PropTypes.number,
-  dotStyles: View.propTypes.style,
+  dotStyles: PropTypes.object,
   dotColor: PropTypes.string
 };
 

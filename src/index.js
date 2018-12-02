@@ -34,13 +34,13 @@ class TypingAnimation extends React.Component {
   }
 
   render() {
-    const { dotStyles, style } = this.props;
+    const { dotStyles, style, dotColor } = this.props;
 
     return (
       <View style={[styles.container, style]}>
-        <Dot x={12 - radius - padding} y={this.state.y1} radius={radius} style={dotStyles} />
-        <Dot x={12} y={this.state.y2} radius={radius} style={dotStyles} />
-        <Dot x={12 + radius + padding} y={this.state.y3} radius={radius} style={dotStyles} />
+        <Dot x={12 - radius - padding} y={this.state.y1} radius={radius} style={dotStyles} dotColor={dotColor} />
+        <Dot x={12} y={this.state.y2} radius={radius} style={dotStyles} dotColor={dotColor} />
+        <Dot x={12 + radius + padding} y={this.state.y3} radius={radius} style={dotStyles} dotColor={dotColor} />
       </View>
     );
   }
@@ -49,12 +49,12 @@ class TypingAnimation extends React.Component {
 TypingAnimation.defaultProps = {
   style: {},
   dotStyles: {},
-  dotColor: "#000"
+  dotColor: "black"
 };
 
 TypingAnimation.propTypes = {
-  style: View.propTypes.style,
-  dotStyles: View.propTypes.style,
+  style: PropTypes.object,
+  dotStyles: PropTypes.object,
   dotColor: PropTypes.string
 };
 
