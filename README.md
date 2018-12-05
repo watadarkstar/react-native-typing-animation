@@ -22,6 +22,7 @@
 
 ## Features
 
+* Smooth movement
 * Customizable
 * No dependencies
 * Fast, lightweight and no images
