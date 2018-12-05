@@ -9,6 +9,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
     "release": "release-it",
     "release:dry": "release-it --dry-run"
   },
@@ -30,6 +31,8 @@
   "license": "MIT",
   "devDependencies": {
     "eslint": "^5.9.0",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-react-native": "^3.5.0",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-native": "^0.57.7",
