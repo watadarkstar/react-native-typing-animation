@@ -29,6 +29,7 @@
   "author": "Adrian Carolli",
   "license": "MIT",
   "devDependencies": {
+    "eslint": "^5.9.0",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-native": "^0.57.7",
