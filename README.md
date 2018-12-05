@@ -12,6 +12,7 @@
   <a href="https://www.npmjs.com/package/react-native-typing-animation">
     <img alt="npm version" src="https://badge.fury.io/js/react-native-typing-animation.svg"/>
   </a>
+  <a href="https://circleci.com/gh/watadarkstar/react-native-typing-animation"><img src="https://circleci.com/gh/watadarkstar/react-native-typing-animation.svg?style=shield" alt="build"></a>
   <a title='License' href="https://github.com/watadarkstar/react-native-typing-animation/blob/master/LICENSE" height="18">
     <img src='https://img.shields.io/badge/license-MIT-blue.svg' />
   </a>
