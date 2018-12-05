@@ -101,6 +101,7 @@ Submit a PR to contribute :)
 ## Roadmap
 
 * Move from `requestAnimationFrame` to `Animated` with `useNativeDriver` (PRs welcome)
+* Integrate with Gifted Chat
 * Allow animation speed to be configurable (PRs welcome)
 * Unit tests (PRs welcome)
 
