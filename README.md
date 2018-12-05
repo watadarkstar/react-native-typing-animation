@@ -20,6 +20,13 @@
   </a>
 </p>
 
+## Features
+
+* Customizable
+* No dependencies
+* Fast, lightweight and no images
+* Uses `requestAnimationFrame`
+
 ## Installation
 
 * Using [npm](https://www.npmjs.com/#getting-started): `npm install react-native-typing-animation --save`
