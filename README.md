@@ -62,6 +62,7 @@ class Example extends React.Component {
         dotColor="black"
         dotMargin={3}
         dotAmplitude={3}
+        dotSpeed={0.15}
         dotRadius={2.5}
         dotX={12}
         dotY={6}
@@ -79,6 +80,7 @@ class Example extends React.Component {
 * **`dotRadius`** _(Integer)_ - Dot radius; default is `2.5`
 * **`dotMargin`** _(Integer)_ - Dot margin, the space between dots; default is `3`
 * **`dotAmplitude`** _(Integer)_ - Dot amplitude; default is `3`
+* **`dotSpeed`** _(Integer)_ - Dot speed; default is `0.15`
 * **`dotY`** _(Integer)_ - Dot y, the starting y coordinate; default is `6`
 * **`dotX`** _(Integer)_ - Dot x, the x coordinate of the center dot; default is `12`
 
@@ -95,6 +97,7 @@ Feel free to ask me questions on Twitter [@icookandcode](https://www.twitter.com
 Work is based on the amazing article ["How you can use simple Trigonometry to create better loaders"](https://uxdesign.cc/how-you-can-use-simple-trigonometry-to-create-better-loaders-32a573577eb4) by Nash Vail
 
 ## Contributors
+* [Dennis Murage](https://github.com/murageden)
 
 Submit a PR to contribute :)
 
@@ -102,7 +105,6 @@ Submit a PR to contribute :)
 
 * Move from `requestAnimationFrame` to `Animated` with `useNativeDriver` (PRs welcome)
 * Integrate with Gifted Chat
-* Allow animation speed to be configurable (PRs welcome)
 * Unit tests (PRs welcome)
 
 ## Release
@@ -115,5 +117,4 @@ yarn run release
 ```
 
 ## Changelog
-
-TODO
+* Allow animation speed to be configurable
