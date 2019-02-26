@@ -9,7 +9,7 @@ class TypingAnimation extends React.Component {
   constructor(props) {
     super(props);
 
-    const { dotAmplitude, dotY } = props;
+    const { dotAmplitude, dotSpeed, dotY } = props;
     this.state = {
       currentAnimationTime: 0
     };
@@ -19,7 +19,7 @@ class TypingAnimation extends React.Component {
         y1: dotY + dotAmplitude * Math.sin(prevState.currentAnimationTime),
         y2: dotY + dotAmplitude * Math.sin(prevState.currentAnimationTime - 1),
         y3: dotY + dotAmplitude * Math.sin(prevState.currentAnimationTime - 2),
-        currentAnimationTime: prevState.currentAnimationTime + 0.15
+        currentAnimationTime: prevState.currentAnimationTime + dotSpeed
       }));
       this.frameAnimationRequest = requestAnimationFrame(this._animation);
     };
@@ -49,6 +49,7 @@ TypingAnimation.defaultProps = {
   dotColor: "black",
   dotMargin: 3,
   dotAmplitude: 3,
+  dotSpeed: 0.15,
   dotRadius: 2.5,
   dotY: 6,
   dotX: 12
@@ -60,6 +61,7 @@ TypingAnimation.propTypes = {
   dotColor: PropTypes.string,
   dotMargin: PropTypes.number,
   dotAmplitude: PropTypes.number,
+  dotSpeed: PropTypes.number,
   dotRadius: PropTypes.number,
   dotY: PropTypes.number,
   dotX: PropTypes.number
