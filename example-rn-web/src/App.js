@@ -8,7 +8,7 @@
 
 import React, { Component } from "react";
 import { Platform, StyleSheet, View } from "react-native-web";
-import { TypingAnimation } from "react-native-typing-animation";
+import TypingAnimation from "./TypingAnimation";
 
 const instructions = Platform.select({
   ios: "Press Cmd+R to reload,\n" + "Cmd+D or shake for dev menu",
