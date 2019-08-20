@@ -23,28 +23,27 @@
 
 ## Features
 
-* Smooth movement
-* Customizable
-* No dependencies
-* Fast, lightweight and no images
-* Uses `requestAnimationFrame`
+- Smooth movement
+- Customizable
+- No dependencies
+- Fast, lightweight and no images
+- Uses `requestAnimationFrame`
+- Works with React Native Web
 
 ## Installation
 
-* Using [npm](https://www.npmjs.com/#getting-started): `npm install react-native-typing-animation --save`
-* Using [Yarn](https://yarnpkg.com/): `yarn add react-native-typing-animation`
+- Using [npm](https://www.npmjs.com/#getting-started): `npm install react-native-typing-animation --save`
+- Using [Yarn](https://yarnpkg.com/): `yarn add react-native-typing-animation`
 
 ## Example
 
 ```jsx
 import React from "react";
-import { TypingAnimation } from 'react-native-typing-animation';
+import { TypingAnimation } from "react-native-typing-animation";
 
 class Example extends React.Component {
   render() {
-    return (
-      <TypingAnimation />
-    );
+    return <TypingAnimation />;
   }
 }
 ```
@@ -53,12 +52,12 @@ class Example extends React.Component {
 
 ```jsx
 import React from "react";
-import { TypingAnimation } from 'react-native-typing-animation';
+import { TypingAnimation } from "react-native-typing-animation";
 
 class Example extends React.Component {
   render() {
     return (
-      <TypingAnimation 
+      <TypingAnimation
         dotColor="black"
         dotMargin={3}
         dotAmplitude={3}
@@ -74,19 +73,23 @@ class Example extends React.Component {
 
 ## Props
 
-* **`style`** _(Object)_ - Container styles; default is `{}`
-* **`dotColor`** _(String)_ - Dot color; default is `#000` (black)
-* **`dotStyles`** _(Object)_ - Dot styles; default is `{}`
-* **`dotRadius`** _(Integer)_ - Dot radius; default is `2.5`
-* **`dotMargin`** _(Integer)_ - Dot margin, the space between dots; default is `3`
-* **`dotAmplitude`** _(Integer)_ - Dot amplitude; default is `3`
-* **`dotSpeed`** _(Integer)_ - Dot speed; default is `0.15`
-* **`dotY`** _(Integer)_ - Dot y, the starting y coordinate; default is `6`
-* **`dotX`** _(Integer)_ - Dot x, the x coordinate of the center dot; default is `12`
+- **`style`** _(Object)_ - Container styles; default is `{}`
+- **`dotColor`** _(String)_ - Dot color; default is `#000` (black)
+- **`dotStyles`** _(Object)_ - Dot styles; default is `{}`
+- **`dotRadius`** _(Integer)_ - Dot radius; default is `2.5`
+- **`dotMargin`** _(Integer)_ - Dot margin, the space between dots; default is `3`
+- **`dotAmplitude`** _(Integer)_ - Dot amplitude; default is `3`
+- **`dotSpeed`** _(Integer)_ - Dot speed; default is `0.15`
+- **`dotY`** _(Integer)_ - Dot y, the starting y coordinate; default is `6`
+- **`dotX`** _(Integer)_ - Dot x, the x coordinate of the center dot; default is `12`
+
+## React Native Web
+
+The library works with React Native Web. You can see a working example [here](https://example-rn-web.adriancaarolli.now.sh/) and the source code is available [here](https://github.com/watadarkstar/react-native-typing-animation/tree/master/example-rn-web). If you are using create-react-app it might be worth copying the library source files into your app instead of installing it as a dependency to avoid react-native alias issues. See the `/example-rn-web` directory for what I mean.
 
 ## License
 
-* [MIT](LICENSE)
+- [MIT](LICENSE)
 
 ## Author
 
@@ -97,15 +100,16 @@ Feel free to ask me questions on Twitter [@icookandcode](https://www.twitter.com
 Work is based on the amazing article ["How you can use simple Trigonometry to create better loaders"](https://uxdesign.cc/how-you-can-use-simple-trigonometry-to-create-better-loaders-32a573577eb4) by Nash Vail
 
 ## Contributors
-* [Dennis Murage](https://github.com/murageden)
+
+- [Dennis Murage](https://github.com/murageden)
 
 Submit a PR to contribute :)
 
 ## Roadmap
 
-* Move from `requestAnimationFrame` to `Animated` with `useNativeDriver` (PRs welcome)
-* Integrate with Gifted Chat
-* Unit tests (PRs welcome)
+- Move from `requestAnimationFrame` to `Animated` with `useNativeDriver` (PRs welcome)
+- Integrate with Gifted Chat
+- Unit tests (PRs welcome)
 
 ## Release
 
@@ -117,4 +121,5 @@ yarn run release
 ```
 
 ## Changelog
-* Allow animation speed to be configurable
+
+- Allow animation speed to be configurable
