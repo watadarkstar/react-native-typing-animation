@@ -79,9 +79,10 @@ class Example extends React.Component {
 - **`dotRadius`** _(Integer)_ - Dot radius; default is `2.5`
 - **`dotMargin`** _(Integer)_ - Dot margin, the space between dots; default is `3`
 - **`dotAmplitude`** _(Integer)_ - Dot amplitude; default is `3`
-- **`dotSpeed`** _(Integer)_ - Dot speed; default is `0.15`
+- **`dotSpeed`** _(Integer)_ - Dot speed, the speed of the whole animation view; default is `0.15`
 - **`dotY`** _(Integer)_ - Dot y, the starting y coordinate; default is `6`
 - **`dotX`** _(Integer)_ - Dot x, the x coordinate of the center dot; default is `12`
+- **`show`** _(Boolean)_ - Visibility, whether the whole animation view is displayed or not; default is `true`
 
 ## React Native Web
 
@@ -123,3 +124,4 @@ yarn run release
 ## Changelog
 
 - Allow animation speed to be configurable
+- Allow visibility of the view to be configurable [#22](https://github.com/watadarkstar/react-native-typing-animation/issues/22)

@@ -31,8 +31,8 @@ class TypingAnimation extends React.Component {
   }
 
   render() {
-    const { dotStyles, style, dotColor, dotMargin, dotRadius, dotX } = this.props;
-
+    const { dotStyles, style, show, dotColor, dotMargin, dotRadius, dotX } = this.props;
+    if(!show) return null;
     return (
       <View style={[styles.container, style]}>
         <Dot x={dotX - dotRadius - dotMargin} y={this.state.y1} radius={dotRadius} style={dotStyles} dotColor={dotColor} />
@@ -50,6 +50,7 @@ TypingAnimation.defaultProps = {
   dotMargin: 3,
   dotAmplitude: 3,
   dotSpeed: 0.15,
+  show: true,
   dotRadius: 2.5,
   dotY: 6,
   dotX: 12
@@ -62,6 +63,7 @@ TypingAnimation.propTypes = {
   dotMargin: PropTypes.number,
   dotAmplitude: PropTypes.number,
   dotSpeed: PropTypes.number,
+  show: PropTypes.bool,
   dotRadius: PropTypes.number,
   dotY: PropTypes.number,
   dotX: PropTypes.number
