@@ -20,6 +20,9 @@
     <img src='https://img.shields.io/twitter/url/http/shields.io.svg?style=social' />
   </a>
 </p>
+<p align="center">
+  <a href="https://x.com/icookandcode" target="_blank">Need help building your React Native app? Connect with Adrian on X 🚀 </a>
+</p>
 
 ## Features
 
@@ -125,3 +128,19 @@ yarn run release
 
 - Allow animation speed to be configurable
 - Allow visibility of the view to be configurable [#22](https://github.com/watadarkstar/react-native-typing-animation/issues/22)
+
+---
+
+<div align="center">
+
+**Ready to build a React Native chat app at scale?**
+
+⭐ **Star this repo** • 💬 **[Contact Adrian to Build It](https://x.com/icookandcode)**
+
+_Built with ❤️ by [Adrian](https://x.com/icookandcode)_
+
+</div>
+
+---
+
+**Keywords:** react-native, react, chat, conversation, typescript, react-native-typing-animation
